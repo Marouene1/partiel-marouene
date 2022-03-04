@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">  
+    <title>formulaire partiel</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <input type="text" placeholder="Ajouter une nouvelle tâche">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">Tous</span>
+          <span id="pending">En cours</span>
+          <span id="completed">Complété</span>
+        </div>
+        <button class="clear-btn">Réinitialiser</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
